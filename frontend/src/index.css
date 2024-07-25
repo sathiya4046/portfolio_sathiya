@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* pink #EF5A6F light yellow #FFF1DB  #ECFFE6  blue #536493 */
+#root{
+  background-color: #FFF1DB;
+  color: #00215E;
+
+}
+.education,.experience,.project,.contact{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.navbar-brand{
+font-family: "Ga Maamli", sans-serif;;
+}
+
+#home{
+position: relative;
+top: 50px;
+height: 80vh;
+}
+#education{
+position: relative;
+top: 50px;
+}
+
+.nav-link:hover{
+  background-color: #40A578;
+  color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  transform: scale(1.02);
+  text-align: center;
+  font-weight: 700;
+}
+.btn-success:hover{
+border-radius: 0;
+color: #30b8dd;
+}
+
+main{
+  height: 60vh;
+}
+#education{
+  overflow-x: auto;
+}
+#experience .col{
+transition: all 0.9s; 
+}
+
+#experience .col:hover{
+border: 1px solid black;
+color: #FFF1DB;
+background-color: #00215E;
+transform: scale(1.03);
+overflow: hidden;
+}
+.card-body{
+  background-color: #FFF1DB;
+  transition: all .5s;
+}
+.card-body:hover{
+  background-color: #00215E;
+  color: #FFF1DB;
+  transform: scale(1.01);
+  border-radius: 8px;
+}
+form .input{
+  background-color: #FFF1DB;
+  border: 1px solid #FFF1DB;
+  border-bottom: 1px solid #00215E;
+  color: #EF5A6F;
+}
+form .input:hover{
+  background-color: #00215E;
+  color: #FFF1DB;
+  border-radius: 5px;
+}
+
+  @media screen and (max-width:992px){
+    main{
+      height: 90vh;
+    }
+  }
