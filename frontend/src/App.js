@@ -159,7 +159,7 @@ function App() {
                 <i><small>Using : Reactjs,Bootstrap,Nodejs,Mongodb</small></i>
                 <hr />
                 <p className="card-text">I developed my portfolio website using React.js and Bootstrap combining the innovative of React's component-based architecture with Bootstrap's responsive design capabilities...</p>
-                <a href="https://github.com/sathiya4046/sathiya-portfolio" className="btn btn-outline-primary">View code</a>
+                <a href="https://github.com/sathiya4046/portfolio_sathiya" className="btn btn-outline-primary">View code</a>
               </div>
             </div>
             <div className="card m-3 p-2">
